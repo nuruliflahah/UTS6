@@ -9,7 +9,7 @@ class ProdukSerializer(serializers.ModelSerializer):
 class KasirSerializer(serializers.ModelSerializer):
     class Meta:
         model = Kasir
-        fields = ["id","produk", "id_barang", "total_pembyaran", "published_date"]
+        fields = ["id","produk", "id_barang", "total_pembayaran", "published_date"]
 
 class PembeliSerializer(serializers.ModelSerializer):
     class Meta:
